@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://humanidades.com/wp-content/uploads/2017/03/oseano-2-e1564165053150.jpg");
+    background-size: cover;
+    background-repeat: space;
+}
+
+h3{
+    font-size: 25px !important;
+}
+
+.btn success:hover{
+    background-color: greenyellow;
+}
+
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 39px yellowgreen;}
+    }
